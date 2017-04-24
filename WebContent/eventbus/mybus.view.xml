@@ -1,0 +1,12 @@
+<core:View xmlns:core="sap.ui.core" 
+		   xmlns:mvc="sap.ui.core.mvc" 
+		   xmlns="sap.m"
+		   controllerName="eventbus.mybus" 
+		   xmlns:html="http://www.w3.org/1999/xhtml">
+		<Page title="Event Bus">
+			<content>
+	          <Button text="firstButton" press="onClick"></Button>
+	          <Button text="Go to Next view" press="goNext"></Button>
+			</content>
+		</Page>
+</core:View>
